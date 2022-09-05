@@ -3,16 +3,35 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 250vh;
   background-color: #161625;
 }
-
-.co-win-logo {
-  height: 30px;
-  width: 30px;
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: flex-start;
+  text-align: left;
+  margin-left: 360px;
 }
-
 .logo-name {
   color: #2cc6c6;
-  font-family: 'monospace';
-  font-weight: bolder;
+  font-family: 'sans-serif';
+  font-weight: bold;
+  font-style: oblique;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-right: 2px;
+}
+.main-heading {
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  text-align: left;
+  align-self: flex-start;
+  margin-left: 365px;
 }
