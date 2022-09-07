@@ -1,19 +1,14 @@
 .mini-container {
-  background-color: #1c1c2b;
-  color: #ffffff;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin: 5px;
+  background-color: #1c1c2b;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 .main-heading {
-  color: #ffffff;
-  font-family: "'Courier New', Courier, monospace";
-  font-weight: bold;
-  font-style: italic;
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
 }
-
