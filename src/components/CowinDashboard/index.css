@@ -1,37 +1,72 @@
-.container {
+.app-container {
+  display: flex;
+  justify-content: center;
+  background-color: #161625;
+  min-height: 100vh;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+  max-width: 1110px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-heading {
+  color: #2cc6c6;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-left: 10px;
+}
+
+.heading {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.loading-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.failure-view {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 250vh;
-  background-color: #161625;
 }
-.logo-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-self: flex-start;
-  text-align: left;
-  margin-left: 360px;
+
+.failure-image {
+  width: 50%;
+  margin: 10px;
 }
-.logo-name {
-  color: #2cc6c6;
-  font-family: 'sans-serif';
-  font-weight: bold;
-  font-style: oblique;
-}
-.logo {
-  height: 50px;
-  width: 50px;
-  margin-right: 2px;
-}
-.main-heading {
-  color: #fff;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-style: oblique;
-  font-weight: bold;
-  text-align: left;
-  align-self: flex-start;
-  margin-left: 365px;
+
+.failure-text {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  line-height: 1.4;
+  text-align: center;
 }
