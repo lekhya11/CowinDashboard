@@ -9,7 +9,7 @@ const VaccinationCoverage = props => {
     return number.toString()
   }
 
-  const {VaccinationCoverageDetails} = props
+  const {vaccinationCoverageDetails} = props
 
   return (
     <div className="mini-container">
@@ -18,7 +18,7 @@ const VaccinationCoverage = props => {
       <BarChart
         width={900}
         height={400}
-        data={VaccinationCoverageDetails}
+        data={vaccinationCoverageDetails}
         margin={{
           top: 5,
         }}
